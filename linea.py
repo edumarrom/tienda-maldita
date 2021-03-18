@@ -3,6 +3,9 @@ class Linea:
         self.__set_articulo(articulo)
         self.__set_cantidad(cantidad)
 
+    def __str__(self):
+        return f'| {self.articulo().denom()} | {self.articulo().precio()}€ | {self.__cantidad} | {self.subtotal()}€ |'
+
     def articulo(self):
         return self.__articulo
 
@@ -14,3 +17,7 @@ class Linea:
 
     def __set_cantidad(self, cantidad):
         self.__cantidad = cantidad
+
+    def subtotal(self):
+        """Devuelve el subtotal de la línea, a partir del precio del artículo y la cantidad del mismo."""
+        return self.articulo().precio() * self.cantidad()

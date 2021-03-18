@@ -4,6 +4,9 @@ class Cliente:
         self.__set_nombre(nombre)
         self.__set_apellidos(apellidos)
 
+    def __str__(self):
+        return f'Cliente: {self.__nombre} {self.__apellidos}, DNI: {self.__dni}'
+
     def dni(self):
         return self.__dni
 
