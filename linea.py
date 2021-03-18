@@ -3,14 +3,14 @@ class Linea:
         self.__set_articulo(articulo)
         self.__set_cantidad(cantidad)
 
-        def articulo(self):
-            return self.__articulo
+    def articulo(self):
+        return self.__articulo
 
-        def cantidad(self):
-            return self.__cantidad
+    def cantidad(self):
+        return self.__cantidad
 
-        def __set_articulo(self, articulo):
-            self.__articulo = articulo
+    def __set_articulo(self, articulo):
+        self.__articulo = articulo
 
-        def __set_cantidad(self, cantidad):
-            self.__cantidad = cantidad
+    def __set_cantidad(self, cantidad):
+        self.__cantidad = cantidad
