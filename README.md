@@ -3,7 +3,7 @@ Ejercicios de Programación orientada a objetos: Tienda
 Programación — DAW - Ricardo Pérez López - IES Doñana - Curso 2020/2021
 ---
 
-2. Diseñar y codicar un modelo orientado a objetos de una tienda online donde hay clientes, artículos y facturas. Para ello:
+Diseñar y codificar un modelo orientado a objetos de una tienda online donde hay clientes, artículos y facturas. Para ello:
 
 1. Crear la clase Cliente con los atributos __dni, __nombre y __apellidos.
 2. Crear la clase Articulo con los atributos __codigo, __denominacion y __precio.
